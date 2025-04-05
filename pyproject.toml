@@ -8,5 +8,4 @@ dependencies = [
     "matplotlib>=3.10.1",
     "pandas>=2.2.3",
     "pyqt5>=5.15.11",
-    "sympy>=1.13.3",
 ]
