@@ -81,7 +81,7 @@ def current_forward(table):
 if __name__ == "__main__":
     data = []
     for i in range(10, 22, 2):
-        df = pd.read_csv(f"{i}V.tsv", sep="\t").set_axis(
+        df = pd.read_csv(f"data/{i}V.tsv", sep="\t").set_axis(
             ["PWM", "RPM", "Current", "Voltage", "Power", "Force", "Efficiency"],
             axis="columns",
         )
