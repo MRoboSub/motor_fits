@@ -7,3 +7,5 @@ soure .venv/bin/activate
 python3 process.py
 ```
 
+The motor curves are parameterized by positive/negative and use least squares with the factors in make_matrix
+
