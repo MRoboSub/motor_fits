@@ -3,7 +3,7 @@
 If you have `uv` installed, simply run 
 ```
 uv sync
-soure .venv/bin/activate
+source .venv/bin/activate
 python3 process.py
 ```
 
